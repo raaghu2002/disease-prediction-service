@@ -38,6 +38,6 @@ def predict_disease():
     except Exception as e:
         return jsonify({"error": str(e)}), 500
 
-# Run the Flask app
 if __name__ == '__main__':
+    # Run in development mode
     app.run(debug=True)
