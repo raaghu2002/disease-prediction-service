@@ -40,4 +40,4 @@ def predict_disease():
 
 if __name__ == '__main__':
     # Run in development mode
-    app.run(debug=True)
+    app.run()
